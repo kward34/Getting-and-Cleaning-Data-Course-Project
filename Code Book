@@ -1,2 +1,7 @@
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Variables
+xtrn, ytrn, xtst, ytst, subj_trn and subj_tst contain the the downloaded files.
+x_all, y_all and subj_all merge the datasets.
+features contains the correct names for the x_all dataset, which are applied to the column names stored in mnStd, a numeric vector used to extract the desired data.
+The same process used for the Activities variable.
+all merges x_all, y_all and subj_all into a combined dataset.
+Mean_AllData contains the relevant averages in a '.txt' file.
